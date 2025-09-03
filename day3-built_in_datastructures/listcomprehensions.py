@@ -26,7 +26,8 @@ print(charac)
 # Get ASCII values of characters in "ABCxyz".
 
 # Generate a list of numbers divisible by 3 between 1–30.
-
+divisib3=[a for a in range(1,31) if a%3==0]
+print(divisib3)
 # Generate a list of numbers divisible by both 3 and 5 (1–50).
 
 # Generate a list of first letters of words in ["apple", "banana", "cherry"].
