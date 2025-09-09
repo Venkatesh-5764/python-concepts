@@ -13,7 +13,8 @@ def binarysearch(arr,targetvar):
         elif (arr[mid]<targetvar):
             lef=mid+1
         else:
+            
             rig=mid-1
     return -1
-result=binarysearch([13,14,16,19,22,24,56],24)
-print(result)
+resul=binarysearch([13,14,16,19,22,24,56],24)
+print(resul)
